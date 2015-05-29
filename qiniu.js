@@ -11,11 +11,11 @@ module.exports = function (filename, path) {
     qiniu.io.putFile(uptoken, key, localFile, extra, function (err, ret) {
       if (!err) {
         // 上传成功， 处理返回值
-        console.log(ret.key, ret.hash);
+        console.log(ret.key + '上传成功');
         // ret.key & ret.hash
       } else {
         // 上传失败， 处理返回代码
-        console.log(err);
+        console.log('上传失败:' + path);
         // http://developer.qiniu.com/docs/v6/api/reference/codes.html
       }
     });

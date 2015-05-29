@@ -1,0 +1,19 @@
+{
+  "name": "upMacDownPic",
+  "version": "1.0.0",
+  "description": "upload pic to qiniu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "upload",
+    "node.js"
+  ],
+  "author": "zwhu",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "qiniu": "^6.1.8"
+  }
+}
